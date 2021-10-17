@@ -1,6 +1,4 @@
-package Testat1.ErzeugerVerbraucher;
-
-import java.util.ArrayList;
+package Testat1.src.PrivateSemaphoren;
 
 public class Test {
 
@@ -13,13 +11,13 @@ public class Test {
         Test test = new Test();
 
         // Testfall erstellen
-        test.lok0VielLangsamer();
+        test.ausserhalbSchneller();
         // Einen Test starten
         test.startTest();
     }
 
     public Test(){
-        abschnittskontrolle = new Abschnittskontrolle(1);
+        abschnittskontrolle = new Abschnittskontrolle(2);
     }
 
     private void startTest(){

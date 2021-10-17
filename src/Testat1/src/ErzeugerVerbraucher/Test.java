@@ -1,4 +1,4 @@
-package Testat1.PrivateSemaphoren;
+package Testat1.src.ErzeugerVerbraucher;
 
 public class Test {
 
@@ -11,13 +11,13 @@ public class Test {
         Test test = new Test();
 
         // Testfall erstellen
-        test.gleichSchnell();
+        test.ausserhalbSchneller();
         // Einen Test starten
         test.startTest();
     }
 
     public Test(){
-        abschnittskontrolle = new Abschnittskontrolle(2);
+        abschnittskontrolle = new Abschnittskontrolle(1);
     }
 
     private void startTest(){

@@ -1,4 +1,4 @@
-package Testat1.ErzeugerVerbraucher;
+package Testat1.src.ErzeugerVerbraucher;
 
 import java.util.concurrent.Semaphore;
 

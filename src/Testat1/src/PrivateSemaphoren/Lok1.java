@@ -1,4 +1,4 @@
-package Testat1.PrivateSemaphoren;
+package Testat1.src.PrivateSemaphoren;
 
 public class Lok1 implements Lok {
 

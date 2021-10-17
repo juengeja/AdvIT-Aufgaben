@@ -1,4 +1,4 @@
-package Testat1.PrivateSemaphoren;
+package Testat1.src.PrivateSemaphoren;
 
 public interface Lok extends Runnable{
     

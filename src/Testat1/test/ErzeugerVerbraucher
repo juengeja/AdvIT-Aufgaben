@@ -1,0 +1,183 @@
+# Testdurchläufe für Aufgabenteil a)
+
+## Lok 0 und Lok 1 sind gleich schnell
+
+Lok0 fährt los!
+     Lok1 fährt los!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+     Lok 1 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok0 fährt in gemeinsamen Abschnitt ein!
+Lok 0 fährt aus gemeinsamen Abschnitt aus!
+     Lok 1 fährt in gemeinsamen Abschnitt ein!
+     Lok 1 fährt aus gemeinsamen Abschnitt aus!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok0 fährt in gemeinsamen Abschnitt ein!
+     Lok 1 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok 0 fährt aus gemeinsamen Abschnitt aus!
+     Lok 1 fährt in gemeinsamen Abschnitt ein!
+     Lok 1 fährt aus gemeinsamen Abschnitt aus!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok0 fährt in gemeinsamen Abschnitt ein!
+     Lok 1 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok 0 fährt aus gemeinsamen Abschnitt aus!
+     Lok 1 fährt in gemeinsamen Abschnitt ein!
+
+## Lok 0 ist langsamer als Lok 1
+
+     Lok1 fährt los!
+Lok0 fährt los!
+     Lok 1 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok0 fährt in gemeinsamen Abschnitt ein!
+Lok 0 fährt aus gemeinsamen Abschnitt aus!
+     Lok 1 fährt in gemeinsamen Abschnitt ein!
+     Lok 1 fährt aus gemeinsamen Abschnitt aus!
+     Lok 1 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok0 fährt in gemeinsamen Abschnitt ein!
+Lok 0 fährt aus gemeinsamen Abschnitt aus!
+     Lok 1 fährt in gemeinsamen Abschnitt ein!
+     Lok 1 fährt aus gemeinsamen Abschnitt aus!
+     Lok 1 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok0 fährt in gemeinsamen Abschnitt ein!
+Lok 0 fährt aus gemeinsamen Abschnitt aus!
+     Lok 1 fährt in gemeinsamen Abschnitt ein!
+
+## Lok 0 ist schneller als Lok 1
+
+Lok0 fährt los!
+     Lok1 fährt los!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok0 fährt in gemeinsamen Abschnitt ein!
+Lok 0 fährt aus gemeinsamen Abschnitt aus!
+     Lok 1 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+     Lok 1 fährt in gemeinsamen Abschnitt ein!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+     Lok 1 fährt aus gemeinsamen Abschnitt aus!
+Lok0 fährt in gemeinsamen Abschnitt ein!
+Lok 0 fährt aus gemeinsamen Abschnitt aus!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+     Lok 1 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+     Lok 1 fährt in gemeinsamen Abschnitt ein!
+     Lok 1 fährt aus gemeinsamen Abschnitt aus!
+Lok0 fährt in gemeinsamen Abschnitt ein!
+Lok 0 fährt aus gemeinsamen Abschnitt aus!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+
+## Lok 0 ist viel schneller als Lok 1
+
+Lok0 fährt los!
+     Lok1 fährt los!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok0 fährt in gemeinsamen Abschnitt ein!
+Lok 0 fährt aus gemeinsamen Abschnitt aus!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+     Lok 1 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+     Lok 1 fährt in gemeinsamen Abschnitt ein!
+     Lok 1 fährt aus gemeinsamen Abschnitt aus!
+Lok0 fährt in gemeinsamen Abschnitt ein!
+Lok 0 fährt aus gemeinsamen Abschnitt aus!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+     Lok 1 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+     Lok 1 fährt in gemeinsamen Abschnitt ein!
+     Lok 1 fährt aus gemeinsamen Abschnitt aus!
+Lok0 fährt in gemeinsamen Abschnitt ein!
+Lok 0 fährt aus gemeinsamen Abschnitt aus!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+     Lok 1 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+     Lok 1 fährt in gemeinsamen Abschnitt ein!
+     Lok 1 fährt aus gemeinsamen Abschnitt aus!
+Lok0 fährt in gemeinsamen Abschnitt ein!
+Lok 0 fährt aus gemeinsamen Abschnitt aus!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+
+## Lok 0 ist sehr viel langsamer als Lok 1
+
+Lok0 fährt los!
+     Lok1 fährt los!
+     Lok 1 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok0 fährt in gemeinsamen Abschnitt ein!
+Lok 0 fährt aus gemeinsamen Abschnitt aus!
+     Lok 1 fährt in gemeinsamen Abschnitt ein!
+     Lok 1 fährt aus gemeinsamen Abschnitt aus!
+     Lok 1 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok0 fährt in gemeinsamen Abschnitt ein!
+Lok 0 fährt aus gemeinsamen Abschnitt aus!
+     Lok 1 fährt in gemeinsamen Abschnitt ein!
+     Lok 1 fährt aus gemeinsamen Abschnitt aus!
+     Lok 1 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok0 fährt in gemeinsamen Abschnitt ein!
+Lok 0 fährt aus gemeinsamen Abschnitt aus!
+     Lok 1 fährt in gemeinsamen Abschnitt ein!
+     Lok 1 fährt aus gemeinsamen Abschnitt aus!
+     Lok 1 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok0 fährt in gemeinsamen Abschnitt ein!
+
+## Lok 0 und Lok 1 sind innerhalb des gemeinsamen Abschnitts schneller als ausserhalb
+
+Lok0 fährt los!
+     Lok1 fährt los!
+     Lok 1 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok0 fährt in gemeinsamen Abschnitt ein!
+Lok 0 fährt aus gemeinsamen Abschnitt aus!
+     Lok 1 fährt in gemeinsamen Abschnitt ein!
+     Lok 1 fährt aus gemeinsamen Abschnitt aus!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok0 fährt in gemeinsamen Abschnitt ein!
+     Lok 1 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok 0 fährt aus gemeinsamen Abschnitt aus!
+     Lok 1 fährt in gemeinsamen Abschnitt ein!
+     Lok 1 fährt aus gemeinsamen Abschnitt aus!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok0 fährt in gemeinsamen Abschnitt ein!
+Lok 0 fährt aus gemeinsamen Abschnitt aus!
+     Lok 1 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+     Lok 1 fährt in gemeinsamen Abschnitt ein!
+     Lok 1 fährt aus gemeinsamen Abschnitt aus!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok0 fährt in gemeinsamen Abschnitt ein!
+     Lok 1 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok 0 fährt aus gemeinsamen Abschnitt aus!
+     Lok 1 fährt in gemeinsamen Abschnitt ein!
+     Lok 1 fährt aus gemeinsamen Abschnitt aus!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok0 fährt in gemeinsamen Abschnitt ein!
+Lok 0 fährt aus gemeinsamen Abschnitt aus!
+     Lok 1 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+     Lok 1 fährt in gemeinsamen Abschnitt ein!
+     Lok 1 fährt aus gemeinsamen Abschnitt aus!
+
+## Lok 0 und Lok 1 sind ausserhalb des gemeinsam genutzten Abschnitts schneller als innerhalb
+
+Lok0 fährt los!
+     Lok1 fährt los!
+     Lok 1 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok0 fährt in gemeinsamen Abschnitt ein!
+Lok 0 fährt aus gemeinsamen Abschnitt aus!
+     Lok 1 fährt in gemeinsamen Abschnitt ein!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+     Lok 1 fährt aus gemeinsamen Abschnitt aus!
+Lok0 fährt in gemeinsamen Abschnitt ein!
+     Lok 1 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok 0 fährt aus gemeinsamen Abschnitt aus!
+     Lok 1 fährt in gemeinsamen Abschnitt ein!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+     Lok 1 fährt aus gemeinsamen Abschnitt aus!
+Lok0 fährt in gemeinsamen Abschnitt ein!
+     Lok 1 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok 0 fährt aus gemeinsamen Abschnitt aus!
+     Lok 1 fährt in gemeinsamen Abschnitt ein!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+     Lok 1 fährt aus gemeinsamen Abschnitt aus!
+Lok0 fährt in gemeinsamen Abschnitt ein!
+     Lok 1 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!
+Lok 0 fährt aus gemeinsamen Abschnitt aus!
+     Lok 1 fährt in gemeinsamen Abschnitt ein!
+Lok0 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!

@@ -1,4 +1,4 @@
-package Testat1.PrivateSemaphoren;
+package Testat1.src.PrivateSemaphoren;
 
 import java.util.Arrays;
 import java.util.concurrent.Semaphore;
