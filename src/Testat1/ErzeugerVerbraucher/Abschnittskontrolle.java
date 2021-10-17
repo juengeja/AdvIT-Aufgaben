@@ -30,16 +30,16 @@ public class Abschnittskontrolle {
 
     public void enterLok1(){
         try{
-            System.out.println("Lok 1 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!");
+            System.out.println("     Lok 1 beantragt Einfahrerlaubnis in gemeinsamen Abschnitt!");
             full.acquire();
-            System.out.println("Lok 1 fährt in gemeinsamen Abschnitt ein!");
+            System.out.println("     Lok 1 fährt in gemeinsamen Abschnitt ein!");
         }catch(InterruptedException e){
             e.printStackTrace();
         }
     }
 
     public void exitLok1(){
-        System.out.println("Lok 1 fährt aus gemeinsamen Abschnitt aus!");
+        System.out.println("     Lok 1 fährt aus gemeinsamen Abschnitt aus!");
         empty.release();
     }
 

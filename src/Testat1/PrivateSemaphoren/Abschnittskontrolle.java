@@ -87,30 +87,30 @@ public class Abschnittskontrolle {
 
     public void enterLok1(){
         try{
-            System.out.println("Lok 1 will gemeinsamen Abschnitt befahren!");
+            System.out.println("     Lok 1 will gemeinsamen Abschnitt befahren!");
             // Kritischen Abschnitt betreten, evtl. warten
             mutex.acquire();
 
             // Der Abschnitt muss frei und zuletzt von Lok 0 verlassen worden sein
-            System.out.println("Lok 1 prüft Einfahrtsbedingungen...");
+            System.out.println("     Lok 1 prüft Einfahrtsbedingungen...");
 
             if(abschnittFrei && lastLok == 0){
                 privateSemaphore[1].release();
                 // Lok 1 setzt gemeinsamen Abschnitt auf belegt
                 abschnittFrei = false;
-                System.out.println("Lok 1 darf Abschnitt befahren!");
+                System.out.println("     Lok 1 darf Abschnitt befahren!");
             }else{
                 // Abschnitt kann nicht befahren werden, Vermerk dass Lok 1 wartet
                 waiting[1] = true;
-                System.out.println("Lok 1 muss auf Erlaubnis warten, den Abschnitt zu befahren...");
+                System.out.println("     Lok 1 muss auf Erlaubnis warten, den Abschnitt zu befahren...");
             }
             // Mutex verlassen
             mutex.release();
 
             // Prüfen des privaten Semaphors, evtl. daran warten
-            System.out.println("Lok 1 prüft privaten Semaphor...");
+            System.out.println("     Lok 1 prüft privaten Semaphor...");
             privateSemaphore[1].acquire();
-            System.out.println("Lok 1 befährt gemeinsam genutzten Abschnitt!");
+            System.out.println("     Lok 1 befährt gemeinsam genutzten Abschnitt!");
 
         }catch(InterruptedException e){
             e.printStackTrace();
@@ -121,7 +121,7 @@ public class Abschnittskontrolle {
         try {
             // Kritischen Abschnitt betreten, evtl. warten
             mutex.acquire();
-            System.out.println("Lok 1 verlässt gemeinsamen Abschnitt!");
+            System.out.println("     Lok 1 verlässt gemeinsamen Abschnitt!");
 
             // Abschnitt freigeben
             abschnittFrei = true;
@@ -131,7 +131,7 @@ public class Abschnittskontrolle {
 
             // Prüfen, ob Lok 1 wartet
             if(waiting[0]){
-                System.out.println("Lok 1 weckt Lok 0...");
+                System.out.println("     Lok 1 weckt Lok 0...");
                 abschnittFrei = false;
                 waiting[0] = false;
                 privateSemaphore[0].release();

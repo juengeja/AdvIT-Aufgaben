@@ -17,7 +17,7 @@ public class Lok1 implements Lok {
 
     @Override
     public void run() {
-        System.out.println("Lok1 fährt los!");
+        System.out.println("     Lok1 fährt los!");
         while(true){
             try {
                 // Fahren im eigenen Streckenabschnitt
