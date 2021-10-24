@@ -29,9 +29,9 @@ public class TCPServer {
             server = new ServerSocket(DEFAULT_PORT);
             while (true) {
                 try {
-                    //Serverabfrage
+                    // Warten auf Client
                     connection = server.accept();
-                    //Ein- und Ausgaberoutine
+                    // Ein- und Ausgaberoutine
                     in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
                     out = new PrintWriter(connection.getOutputStream());
                     //Nachricht lesen

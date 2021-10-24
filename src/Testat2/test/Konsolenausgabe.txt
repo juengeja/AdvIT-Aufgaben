@@ -1,0 +1,71 @@
+
+Connected to Server
+SAVE my first message
+KEY 1677529860
+
+Connected to Server
+GET 1677529860
+OK my first message
+
+Connected to Server
+GET 1677529860
+OK my first message
+
+Connected to Server
+SAVE
+FAILED
+
+Connected to Server
+GET
+FAILED
+
+Connected to Server
+SAVE
+KEY 287798076
+
+Connected to Server
+GET 287798076
+OK
+
+Connected to Server
+SAVE
+FAILED
+
+Connected to Server
+SAVE Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+KEY 767416028
+
+Connected to Server
+GET 767416028
+OK Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+Connected to Server
+GET 1677529860
+OK my first message
+
+Connected to Server
+SAVEMeine zweite Nachricht
+FAILED
+
+Connected to Server
+GET meineNachricht29837
+FAILED
+
+Connected to Server
+SAVE changeNachricht1
+KEY 1129622238
+
+Connected to Server
+GET 1129622238
+OK changeNachricht2
+
+Connected to Server
+GET 123
+OK Nachricht im Message Ordner manuell erstellt.
+
+Connected to Server
+GET SurpriseNachricht
+OK Manuell im Ordner erstellt.
+
+
+
