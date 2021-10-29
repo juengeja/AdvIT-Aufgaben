@@ -1,12 +1,9 @@
 package Aufgabe15;
 
-import java.io.File;
-import java.io.IOException;
-import java.net.DatagramPacket;
-import java.net.DatagramSocket;
-import java.net.InetAddress;
+import java.io.*;
+import java.net.*;
 
-public class ThreadPerRequest implements Runnable{
+public class ThreadPerRequest extends Thread{
 
     DatagramSocket datagramSocket;
     InetAddress inetAddress;
@@ -21,10 +18,7 @@ public class ThreadPerRequest implements Runnable{
         this.inetAddress = inetAddress;
         this.port = port;
 
-        this.run();
-
-        Thread.currentThread().interrupt();
-        return;
+        this.start();
     }
 
     @Override
@@ -58,6 +52,8 @@ public class ThreadPerRequest implements Runnable{
         }catch(IOException e){
             e.printStackTrace();
         }
+
+        Thread.currentThread().interrupt();
     }
 
 }

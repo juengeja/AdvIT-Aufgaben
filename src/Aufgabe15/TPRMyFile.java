@@ -45,30 +45,40 @@ public class TPRMyFile {
 	public void writeLine(String filePath, String fileName, int lineNr, String data) {
 		File file = new File(filePath, fileName);
 		TPRMyFile myFile = new TPRMyFile();
-		List<String> fileContent = null;
+		List<String> fileContent;
         try {
             fileContent = new ArrayList<>();
-            String reading = "";
+			String reading = "";
 			for(int i = 1; reading != null && !reading.equals("File not found.") && !reading.equals("Line not found."); i++) {
 				reading = myFile.readLine(filePath, fileName, i);
-				fileContent.add(reading);
+				if(i==lineNr){
+					fileContent.add(data);
+				}else if(reading != null && !reading.equals("File not found.") && !reading.equals("Line not found.")){
+					fileContent.add(reading);
+				}
 			}
+
             if(reading != null && reading.equals("File not found.")) {
             	if(!this.newFile(filePath, fileName)) {
 					System.out.println("Could not create file");
 					return;
 				}
             }
-			try {
-				fileContent.remove(lineNr-1);
-			}catch(IndexOutOfBoundsException ignored){}
-            fileContent.add(lineNr-1, data);
+
+			if(lineNr > fileContent.size()){
+				for(int i = fileContent.size(); i < (lineNr-1); i++){
+					fileContent.add("");
+				}
+				fileContent.add(data);
+			}
+
             fileOut = new PrintWriter(new FileWriter(file));
+			Thread.sleep(5000);
             for (String string : fileContent) {
 				fileOut.println(string);
 			}
             fileOut.flush();
-        } catch(IOException e) {
+        } catch(Exception e) {
         	e.printStackTrace();
         } finally {
         	if(fileOut != null) {
