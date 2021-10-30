@@ -6,7 +6,7 @@ import java.util.*;
 
 public class MonitorFile {
 
-    private final String FILEPATH = "src" + File.separator + "Testat3" + File.separator + "Files";
+    private final String FILEPATH = "src" + File.separator + "Testat3" + File.separator + "test" + File.separator + "Files";
     private final String filename;
     BufferedReader fileIn = null;
     PrintWriter fileOut = null;
