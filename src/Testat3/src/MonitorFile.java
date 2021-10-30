@@ -30,18 +30,21 @@ public class MonitorFile {
     }
 
     public String readLine(int lineNr) {
-
         // Zeile soll gelesen werden
         startRead();
         // Sleep, um Synchronisation besser testen zu können
         try{
-            Thread.sleep((long)(Math.random() * 10000));
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
         // Datei wird eingelesen
         File file = new File(FILEPATH, filename);
         try {
+            // Prüfen, ob Zeilennummer positiv ist
+            if(lineNr < 1){
+                return "ERROR : Line number must be higher than 0. " + lineNr + " is not a valid lineNumber !";
+            }
             fileIn = new BufferedReader(new FileReader(file));
             for (int i = 1; i < lineNr; i++) {
                 fileIn.readLine();
@@ -70,7 +73,7 @@ public class MonitorFile {
         startWrite();
         // Sleep, um Synchronisation besser testen zu können
         try{
-            Thread.sleep((long)(Math.random() * 10000));
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
