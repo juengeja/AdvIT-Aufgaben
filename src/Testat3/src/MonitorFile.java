@@ -73,7 +73,7 @@ public class MonitorFile {
             // Dateiinhalt in ArrayList einlesen
             List<String> fileContent = Files.readAllLines(file.toPath());
             // Wenn nötig ArrayList mit Leerzeilen auffüllen
-            while(fileContent.size() < lineNr - 1){
+            while(fileContent.size() <= lineNr - 1){
                 fileContent.add("");
             }
             // Neuen Inhalt in entsprechende Zeile einfügen

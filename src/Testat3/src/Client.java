@@ -24,7 +24,7 @@ public class Client {
             while (true) {
                 // Eingabe abfragen, an Server senden und auf Antwort warten
                 System.out.println("Befehl an Server senden: ");
-                System.out.println("('READ file, lineNo' or 'WRITE file, lineNo, data' or 'x' to exit)");
+                System.out.println("('READ file,lineNo' or 'WRITE file,lineNo, data' or 'x' to exit)");
                 String input = in.readLine();
                 if(input == null || input.equals("x")){
                     break;
