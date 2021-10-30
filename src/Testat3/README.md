@@ -25,5 +25,13 @@ geändert werden. Die Threads werden dann über eine for-Schleife
 gestartet.  
 Nach dem Start aller Threads wartet der Server auf eingehende
 DatagramPackets und gibt diese bei Erhalt in den Puffer. Die 
-Worker-Threads holen sich diese Packets dann 
+Worker-Threads holen sich diese Packets dann und Bearbeiten die 
+enthaltenen Anfragen.  
+Über die Klasse **MonitorAdministration** werden Instanzen des 
+**MonitorFiles** erstellt, und über den Filename als Key ausgegeben.
+In MonitorFile sind die READ- und WRITE-Zugriffe auf die einzelnen
+Dateien unter Synchronisation nach Schreiber-Priorität implementiert.
+Da über den Namen der Datei unterschiedliche Monitore
+verwendet werden, kann gleichzeitig in unterschiedliche 
+Dateien, aber nicht in dieselbe Datei geschrieben werden.
 ##Korrekte Verwendung

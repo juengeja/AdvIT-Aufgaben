@@ -33,6 +33,12 @@ public class MonitorFile {
 
         // Zeile soll gelesen werden
         startRead();
+        // Sleep, um Synchronisation besser testen zu können
+        try{
+            Thread.sleep((long)(Math.random() * 10000));
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         // Datei wird eingelesen
         File file = new File(FILEPATH, filename);
         try {
@@ -62,6 +68,12 @@ public class MonitorFile {
 
         // Auf der Zeile soll geschrieben werden
         startWrite();
+        // Sleep, um Synchronisation besser testen zu können
+        try{
+            Thread.sleep((long)(Math.random() * 10000));
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         // Dateiobjekt wird angelegt
         File file = new File(FILEPATH, filename);
 
