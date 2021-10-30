@@ -9,8 +9,8 @@ public class ThreadPerRequest extends Thread{
     InetAddress inetAddress;
     String request;
     int port;
-    private final String FILEPATH = System.getProperty("user.home") + File.separator + "Desktop" + File.separator + "Files" + File.separator;
 
+    private final String FILEPATH = System.getProperty("user.home") + File.separator + "Desktop" + File.separator + "Files" + File.separator;
     public ThreadPerRequest(DatagramSocket datagramsocket, InetAddress inetAddress, int port, String request){
 
         this.datagramSocket = datagramsocket;
@@ -44,7 +44,6 @@ public class ThreadPerRequest extends Thread{
             reply = "Not a correct input!";
         }
 
-        DatagramPacket data = new DatagramPacket(new byte[65507], 65507);
         byte[] byteData = reply.getBytes();
 
         try {
@@ -55,5 +54,4 @@ public class ThreadPerRequest extends Thread{
 
         Thread.currentThread().interrupt();
     }
-
 }

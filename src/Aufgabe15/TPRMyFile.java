@@ -38,7 +38,6 @@ public class TPRMyFile {
         	} catch (IOException e) {
         		e.printStackTrace();
         	}
-
         }
 	}
 
@@ -86,5 +85,4 @@ public class TPRMyFile {
         	}
         }
 	}
-
 }
